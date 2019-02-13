@@ -1,3 +1,5 @@
+<body>
+
 <header>
 
     <nav>
@@ -14,3 +16,4 @@
         </ul>
     </nav>
 </header>
+<main>

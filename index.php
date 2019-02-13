@@ -1,6 +1,8 @@
 <?php
 date_default_timezone_set('Europe/Paris');
-include "./includes/header.php";
+include_once "./functions/displaytitle.php";
+include_once "./includes/html.php";
+include_once "./includes/header.php";
 
 
 
@@ -20,13 +22,11 @@ $page = $path . $page . ".inc.php";
 //var_dump($contenu);
 
 if (in_array($page, $contenu)) {
-   include $page;
+   include_once $page;
 }
 else {
-    include "./includes/accueil.inc.php";
+    include_once "./includes/accueil.inc.php";
 }
 
 
-
-
-include "./includes/footer.php";
+include_once "./includes/footer.php";
