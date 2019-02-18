@@ -1,6 +1,7 @@
 <?php
 date_default_timezone_set('Europe/Paris');
 include_once "./functions/debug.php";
+include_once "./functions/pdo.php";
 include_once "./functions/displaytitle.php";
 include_once "./includes/html.php";
 include_once "./includes/header.php";

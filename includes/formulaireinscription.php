@@ -1,6 +1,7 @@
 <?php
 if (!isset($nom))$nom = "";
 if (!isset($mail))$mail = "";
+if (!isset($prenom))$prenom = "";
 ?>
 
 <form method="post" action="index.php?page=inscription">
@@ -11,12 +12,12 @@ if (!isset($mail))$mail = "";
         <div>
 
             <label for="prenom">Prenom&nbsp;:</label>
-            <input type="text" id="prenom" name="prénom" value="<?=$prenom?>"/>
+            <input type="text" id="prenom" name="prenom" value="<?=$prenom?>"/>
 
             <div>
 
             <label for="mail">Mail&nbsp;:</label>
-            <input type="text" id="mail" name="mail "value="<?=$mail?>"/>
+            <input type="text" id="mail" name="mail" value="<?=$mail?>"/>
 
             <div>
                 <label for="mot de passe">Mot de passe&nbsp;:</label>
@@ -29,7 +30,7 @@ if (!isset($mail))$mail = "";
 
 
                 </div>
-                <input type="hidden" name="Maurice">
+                <input type="hidden" name="maurice">
 
             </div>
 
